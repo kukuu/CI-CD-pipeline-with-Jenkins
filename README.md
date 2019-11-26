@@ -204,12 +204,7 @@ i. Repeat process of Job1, but update 'project to build' field to 'Job3'
 
 See all 3 connected jobs after the changes below.
 
-```
 
-![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-9.png)
-
-
-```
 33. Next we will be building the pipeline. 
 
 i. Go to the => + option
@@ -231,7 +226,7 @@ See fig-11 below
 
 ```
 
-![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-11.png)
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-10.png)
 
 
 ```
@@ -241,7 +236,7 @@ See fig-12 below
 ```
 
 
-![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/ffig-12-green-flag-building-maven.png)
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-11.png)
 
 ```
 
