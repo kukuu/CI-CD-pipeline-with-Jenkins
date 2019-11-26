@@ -51,11 +51,6 @@ ii. password
 
 Will begin with jobs and their dependncies!
 
-```
-
-![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/smiley.jpeg)
-
-```
 
 20. We will create 3 jobs
 
@@ -278,14 +273,22 @@ See fig-12 below
 
 ![Happy Coding](fig-19-Console-output.png)
 
+
+```
 36. Lunch the application say:
 
-```
 localhost:3010
 
+
 ```
+![Happy Coding](fig-21-hosted-application.png)
 
 ![Happy Coding](fig-20-hosted-graphql-server.png)
 
 
-![Happy Coding](fig-21-hosted-application.png)
+```
+Happy coding!
+```
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/smiley.jpeg)
+
+
