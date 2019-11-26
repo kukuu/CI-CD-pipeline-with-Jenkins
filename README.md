@@ -215,6 +215,77 @@ See all 3 connected jobs after the changes below.
 
 
 ```
-33. Next we will be building the pipeline.
+33. Next we will be building the pipeline. 
+
+i. Go to the => + option
+
+ii. Insert a view name
+
+iii. Click => 'Build Pipeline View'
+
+iv. Click 'Ok'
+
+v. The pipeline should know where it should start from.
+
+vi. Scroll down to 'Pipeline Flow', and under upstream/downstream config, and under 'Select Intial Job'
+ enter 'Job1'.
+
+vii. Click 'APPLY', and 'OK'.
+
+See fig-11 below
 
 ```
+
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-11.png)
+
+
+```
+34. Click option 'run' to kick it starting
+
+See fig-12 below
+```
+
+
+![Happy Coding](fig-12-green-flag-building-maven.png)
+
+```
+
+34. All other completed job builds and flag reports
+
+
+```
+
+
+![Happy Coding](fig-13-green-flag-report-job1-builden-maven.png)
+
+![Happy Coding](fig-14-green-flag-building-docker.png)
+
+![Happy Coding](fig-15-green-flag-report-building-docker.png)
+
+![Happy Coding](fig-16-yellow-flag-job-3-building.png)
+
+
+
+```
+35. Job3 sucessfully built! CI/CD pipeline is now complete
+```
+
+![Happy Coding](fig-17-completing-successful-ci-cd-pipeline.png)
+
+
+![Happy Coding](fig-18-Console-output.png)
+
+
+![Happy Coding](fig-19-Console-output.png)
+
+36. Lunch the application say:
+
+```
+localhost:3010
+
+```
+
+![Happy Coding](fig-20-hosted-graphql-server.png)
+
+
+![Happy Coding](fig-21-hosted-application.png)
