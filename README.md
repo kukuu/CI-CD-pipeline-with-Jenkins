@@ -47,9 +47,9 @@ ii. password
 
 18. Redirected to dashboard: localhost:8080
 
-19. Fun starts from here:: READY TO CREATE THE CI/CD PIPELINE
+19.  READY TO CREATE THE CI/CD PIPELINE!
 
 Will begin with jobs and their dependncies!
 
-
+ ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/smiley.jpeg)
 ```
