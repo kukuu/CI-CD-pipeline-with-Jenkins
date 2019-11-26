@@ -138,9 +138,8 @@ iv.  => 'Execute shell'. Two major statements we need to add to the executable c
 
  See insert below:
 
+```
+
 ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-3.png)
 
 ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-4.png)
-
-```
-
