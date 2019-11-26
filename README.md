@@ -118,5 +118,29 @@ for the test completes successful, it is then made available for Docker to deplo
 
 iii. Maven doesn't only compile the code, but it validates it as well.
 
+2. Begin from Job1
+
+i. => 'Configure' option
+
+ii. => 'Build' option tab
+
+iii. In the drop down menu choose => "Add build step"
+
+iv.  => 'Execute shell'. Two major statements we need to add to the executable command are the:
+ 
+ a. directory of web code 'install'
+ 
+ b. maven command
+
+ 28. See how we change the directory from the web directory to the testing directory in the command. 
+
+ This ends Job1, 'SAVE' and 'APPLY'
+
+ See insert below:
+
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-3.png)
+
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-4.png)
 
 ```
+
