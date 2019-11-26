@@ -84,3 +84,26 @@ See fig. 2 below:
 ```
 
 ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-2.png)
+
+
+```
+
+23. Time to create pipeline. We will pull code from Github repository. In our example here, this
+is a piece of JAVA code given to  the Dev team to test. This will go into Job2. Once certified 
+it will be pushed to be Job3 to be deployed
+
+24. The URL of our github repository has to be added to the 3 jobs as upadates in the configuration setups.
+
+i. => Go to Job1
+
+ii. => Go to configure 
+
+iii. pick 'Source Code Management' tab. Then select Git.
+
+iv. Insert repository URL for the project from Git. Jenkins will pull the code from the repository here and perform the iterative 3 job operations (consecutively) from there for the CI/CD pipeline.
+
+v. Save your update.
+
+25. Repeat step 24 for Job2 and Job3
+
+```
