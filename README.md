@@ -51,6 +51,11 @@ ii. password
 
 Will begin with jobs and their dependncies!
 
+```
+
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/smiley.jpeg)
+
+```
 
 20. We will create 3 jobs
 
@@ -241,7 +246,7 @@ See fig-12 below
 ```
 
 
-![Happy Coding](fig-12-green-flag-building-maven.png)
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/ffig-12-green-flag-building-maven.png)
 
 ```
 
@@ -251,13 +256,13 @@ See fig-12 below
 ```
 
 
-![Happy Coding](fig-13-green-flag-report-job1-builden-maven.png)
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/ffig-13-green-flag-report-job1-builden-maven.png)
 
-![Happy Coding](fig-14-green-flag-building-docker.png)
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-14-green-flag-building-docker.png)
 
-![Happy Coding](fig-15-green-flag-report-building-docker.png)
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/ffig-14-green-flag-building-docker.png)
 
-![Happy Coding](fig-16-yellow-flag-job-3-building.png)
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-16-yellow-flag-job-3-building.png)
 
 
 
@@ -265,30 +270,22 @@ See fig-12 below
 35. Job3 sucessfully built! CI/CD pipeline is now complete
 ```
 
-![Happy Coding](fig-17-completing-successful-ci-cd-pipeline.png)
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-17-completing-successful-ci-cd-pipeline.png)
 
 
-![Happy Coding](fig-18-Console-output.png)
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-18-Console-output.png)
 
 
-![Happy Coding](fig-19-Console-output.png)
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/ffig-19-Console-output.png)
 
-
-```
 36. Lunch the application say:
 
+```
 localhost:3010
 
-
 ```
-![Happy Coding](fig-21-hosted-application.png)
 
-![Happy Coding](fig-20-hosted-graphql-server.png)
-
-
-```
-Happy coding!
-```
-![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/smiley.jpeg)
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-20-hosted-graphql-server.png)
 
 
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/ffig-21-hosted-application.png)
