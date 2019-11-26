@@ -51,11 +51,6 @@ ii. password
 
 Will begin with jobs and their dependncies!
 
-```
-
-![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/smiley.jpeg)
-
-```
 
 20. We will create 3 jobs
 
@@ -285,7 +280,7 @@ localhost:3010
 
 ```
 
-![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-20-hosted-graphql-server.png)
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/ffig-20-hosted-graphql-server.png)
 
 
-![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/ffig-21-hosted-application.png)
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/smiley.jpeg)
