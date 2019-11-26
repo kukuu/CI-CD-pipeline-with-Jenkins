@@ -51,6 +51,14 @@ ii. password
 
 Will begin with jobs and their dependncies!
 
+20. We will create 3 jobs
+
+i. Build the project
+
+ii. Test the project
+
+iii. Deploy the project
+
 ```
 
 ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/smiley.jpeg)
