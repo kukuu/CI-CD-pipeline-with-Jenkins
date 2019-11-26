@@ -271,16 +271,18 @@ See fig-12 below
 ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-18-Console-output.png)
 
 
-![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/ffig-19-Console-output.png)
-
+```
 36. Lunch the application say:
 
-```
+
 localhost:3010
 
 ```
 
-![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/ffig-20-hosted-graphql-server.png)
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-20-hosted-graphql-server.png)
 
+```
+Happy Coding
+```
 
 ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/smiley.jpeg)
