@@ -138,8 +138,32 @@ iv.  => 'Execute shell'. Two major statements we need to add to the executable c
 
  See insert below:
 
-```
-
 ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-3.png)
 
 ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-4.png)
+
+
+29. Job2 is where we want testing to be done and copied to Docker to handle and take further to production.
+From there the application will be deployed to the production server.
+
+30. Go to: 
+
+i. => Configure 
+
+ii. => 'Build option' tab
+
+ii. => Add build step
+
+iii. => Execute shell 
+
+iv. Add code. See insert below
+
+v. We also build the Docker Container
+
+vi. 'SAVE' and 'APPLY'
+
+```
+
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-5.png)
+
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-6.png)
