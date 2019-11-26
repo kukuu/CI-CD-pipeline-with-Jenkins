@@ -51,5 +51,6 @@ ii. password
 
 Will begin with jobs and their dependncies!
 
- ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/smiley.jpeg)
 ```
+
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/smiley.jpeg)
