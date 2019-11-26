@@ -1,5 +1,5 @@
 
-# Jenkins - Building CI/ CD pipeline
+# Jenkins - Building CI/CD pipeline
 
 Steps
 
