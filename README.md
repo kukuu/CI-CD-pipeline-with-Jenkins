@@ -106,4 +106,17 @@ v. Save your update.
 
 25. Repeat step 24 for Job2 and Job3
 
+26. Now we configure each build option so it knows what code to use to compile
+
+27. We build the source code to get a war  file  which then becomes executable:
+
+i. Jenkins uses Maven to get all the dependency packages needed to build the project - 
+use Command for Mavin (see further below).
+
+ii. Once Maven successfully pulls all dependencies needed to prform the test, and  build 
+for the test completes successful, it is then made available for Docker to deploy.
+
+iii. Maven doesn't only compile the code, but it validates it as well.
+
+
 ```
