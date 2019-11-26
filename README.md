@@ -167,3 +167,44 @@ vi. 'SAVE' and 'APPLY'
 ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-5.png)
 
 ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-6.png)
+
+```
+31. In Job3 we finally do a test of the system and deploy to production.
+
+Before Job3 begins first check if any old  image files have been created in the environment, and only then have them created. This is part of error handling that needs to be done in the code.
+
+Repeat step 30 with its valid changes. 'SAVE' and 'APPLY'.
+
+
+
+See in the inserted code below: 
+
+```
+
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-7.png)
+
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-8.png)
+
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-9.png)
+
+
+```
+32. Next step is to interconnect all 3 jobs into a pipeline. Stating the sequence of the build order.
+
+In job 1:
+
+i. Go to => 'Configure' option
+
+ii.  => 'Post build Actions'
+
+iii. Select 'build other projects'
+
+iv. In the 'project to build' field insert 'Job2'
+
+v. 'SAVE', 'APPLY'
+
+In Job2:
+
+i. Repeat process of Job1, but update 'project to build' field to 'Job3'
+
+```
