@@ -240,13 +240,13 @@ See fig-12 below
 
 ```
 
-34. All other completed job builds and flag reports
+35. All other completed job builds and flag reports
 
 
 ```
 
 
-![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/ffig-13-green-flag-report-job1-builden-maven.png)
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-12-green-flag-building-maven.png)
 
 ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-14-green-flag-building-docker.png)
 
