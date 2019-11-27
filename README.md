@@ -273,11 +273,14 @@ See fig-12 below
 localhost:3010
 
 ```
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-21-hosted-application.png)
 
+
+```
+37. GraphQL Server query
+```
 
 ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-20-hosted-graphql-server.png)
-
-![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-21-hosted-application.png)
 
 
 ```
