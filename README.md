@@ -272,7 +272,15 @@ See fig-12 below
 
 localhost:3010
 
+REACT/REDUX/GraphQL Application 
+
 ```
+
+https://github.com/kukuu/react-redux-graphql-express
+
+
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-21-hosted-application.png)
+
 
 ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-20-hosted-graphql-server.png)
 
