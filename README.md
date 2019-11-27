@@ -87,7 +87,8 @@ See fig. 2 below:
 is a piece of JAVA code given to  the Dev team to test. This will go into Job2. Once certified 
 it will be pushed to be Job3 to be deployed
 
-24. The URL of our github repository has to be added to the 3 jobs as upadates in the configuration setups.
+24. The URL of our github repository has to be added to the 3 jobs as upadates in the configuration
+setups.
 
 i. => Go to Job1
 
@@ -95,7 +96,8 @@ ii. => Go to configure
 
 iii. pick 'Source Code Management' tab. Then select Git.
 
-iv. Insert repository URL for the project from Git. Jenkins will pull the code from the repository here and perform the iterative 3 job operations (consecutively) from there for the CI/CD pipeline.
+iv. Insert repository URL for the project from Git. Jenkins will pull the code from the repository 
+here and perform the iterative 3 job operations (consecutively) from there for the CI/CD pipeline.
 
 v. Save your update.
 
@@ -121,13 +123,15 @@ ii. => 'Build' option tab
 
 iii. In the drop down menu choose => "Add build step"
 
-iv.  => 'Execute shell'. Two major statements we need to add to the executable command are the:
+iv.  => 'Execute shell'. Two major statements we need to add to the executable command 
+are the:
  
  a. directory of web code 'install'
  
  b. maven command
 
- 28. See how we change the directory from the web directory to the testing directory in the command. 
+ 28. See how we change the directory from the web directory to the testing directory in 
+ the command. 
 
  This ends Job1, 'SAVE' and 'APPLY'
 
@@ -138,8 +142,8 @@ iv.  => 'Execute shell'. Two major statements we need to add to the executable c
 ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-4.png)
 
 
-29. Job2 is where we want testing to be done and copied to Docker to handle and take further to production.
-From there the application will be deployed to the production server.
+29. Job2 is where we want testing to be done and copied to Docker to handle and take 
+further to production. From there the application will be deployed to the production server.
 
 30. Go to: 
 
@@ -166,7 +170,8 @@ vi. 'SAVE' and 'APPLY'
 ```
 31. In Job3 we finally do a test of the system and deploy to production.
 
-Before Job3 begins first check if any old  image files have been created in the environment, and only then have them created. This is part of error handling that needs to be done in the code.
+Before Job3 begins first check if any old  image files have been created in the environment,
+and only then have them created. This is part of error handling that needs to be done in the code.
 
 Repeat step 30 with its valid changes. 'SAVE' and 'APPLY'.
 
@@ -184,7 +189,8 @@ See in the inserted code below:
 
 
 ```
-32. Next step is to interconnect all 3 jobs into a pipeline. Stating the sequence of the build order.
+32. Next step is to interconnect all 3 jobs into a pipeline. Stating the sequence of
+the build order.
 
 In job 1:
 
@@ -217,8 +223,8 @@ iv. Click 'Ok'
 
 v. The pipeline should know where it should start from.
 
-vi. Scroll down to 'Pipeline Flow', and under upstream/downstream config, and under 'Select Intial Job'
- enter 'Job1'.
+vi. Scroll down to 'Pipeline Flow', and under upstream/downstream config, and under
+'Select Intial Job' enter 'Job1'.
 
 vii. Click 'APPLY', and 'OK'.
 
