@@ -4,7 +4,7 @@
 Steps
 
 ```
-1. Log into virtual machine - see fig 1
+1. Log into virtual machine.
 
 2. Enable Jenkins and Docker services
 
