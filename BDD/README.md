@@ -21,7 +21,8 @@ Feature refinement with the team starts with a feature and will arrive at the ri
 
 Where the a feature is  is not clear, I will facilitate the use  of impact mapping with the team  to arrive at an acceptable definition. 
 
-BDD relies on the use of a very specific vocabulary to minimize miscommunication and to ensure that everyone – the business, developers, testers, analysts and managers – are not only on the same page but using the same words.
+Using BDD specific vocabulary will help to minimize miscommunication and to ensure that everyone – the business, developers, testers, analysts and managers – are not only on the same page but using the same words.
+
 Secondly, Acceptance tests will be written using the standard agile framework of a User story. 
 
 At the Front End Level which also serves as the final delivery point of acceptance of our design, user stories consists of:
