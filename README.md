@@ -134,12 +134,12 @@ iv.  => 'Execute shell'. Two major statements we need to add to the executable c
  This ends Job1, 'SAVE' and 'APPLY'
 
  See insert below:
-
+```
 ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-3.png)
 
 ![Happy Coding](hhttps://github.com/kukuu/AGILITY/blob/master/fig-4.png)
 
-
+```
 29. Job2 is where we want testing to be done and copied to Docker to handle and take further to production.
 From there the application will be deployed to the production server.
 
