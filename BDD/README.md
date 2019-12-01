@@ -9,7 +9,7 @@ To facilitate the design and run modes of the automated test execution system, I
 2. Or is it driven by a third party API calls, cron jobs, data exports/imports, etc. TDD might be a better solution.
 Is the System .
 
-Judging from the context of the exercise, I will recommend BDD as Agile methodology to drive the process. I will cover a TDD Unit Tests instance as an addendum and other edge cases as an extension.
+Judging from the context of the exercise, I will recommend BDD as Agile methodology to drive the process. I will cover a TDD instance as an addendum and other edge cases as an extension.
 
 I have chosen to create epic for building a "LIVE EVENT NEWS FEEDS" feed for smart and feature phones.
 
@@ -144,8 +144,9 @@ Gem
 ```
 
 
-## Unit Test - TDD
+## Unit Test 
 
+ [to be added]
  
 
 ## Deployment steps for Docker Container 
@@ -154,6 +155,15 @@ Gem
 
 
 ##  Building automated CI/CD pipeline with Jenkins to Production
+
+
+For automating the builds of the  design and run systems of our testing framework as a CI/CD pipeline we would use 
+
+1. Jenkins  
+
+2. Selenium
+
+3. Docker
 
 https://github.com/kukuu/CI-CD-pipeline-with-Jenkins/blob/master/README.md
 
@@ -174,18 +184,6 @@ $ rails g cucumber:install.
 $ bundle exec cucumber
 
 ```
-
-
-## Continuous Integration anad Continuous Deployment
-
-For automating the builds of the  design and run systems of our testing framework as a CI/CD pipeline we would use 
-
-1. Jenkins  
-
-2. Selenium
-
-3. Docker
-
 
 ## Author
 
