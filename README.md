@@ -137,7 +137,9 @@ iv.  => 'Execute shell'. Two major statements we need to add to the executable c
 ```
 ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-3.png)
 
-![Happy Coding](hhttps://github.com/kukuu/AGILITY/blob/master/fig-4.png)
+![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-4.png)
+
+
 
 ```
 29. Job2 is where we want testing to be done and copied to Docker to handle and take further to production.
