@@ -21,3 +21,5 @@
 10. Flip environment alias to point at the offline colour.
 
 11. The new build is now online.
+
+https://github.com/kukuu/AGILITY/blob/master/kubernetes/1.png
