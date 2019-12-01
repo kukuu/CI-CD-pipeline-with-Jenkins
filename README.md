@@ -262,7 +262,7 @@ See fig-12 below
 
 
 ```
-35. Job3 sucessfully built! CI/CD pipeline is now complete
+36. Job3 sucessfully built! CI/CD pipeline is now complete
 ```
 
 ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-17-completing-successful-ci-cd-pipeline.png)
@@ -272,7 +272,7 @@ See fig-12 below
 
 
 ```
-36. Lunch the application say:
+37. Lunch the application say:
 
 
 localhost:3010
@@ -283,6 +283,7 @@ REACT/REDUX/GraphQL Application
 
 https://github.com/kukuu/react-redux-graphql-express
 
+![Happy Coding](https://github.com/kukuu/CI-CD-pipeline-with-Jenkins/blob/master/BDD/tory-conference-2019.png)
 
 ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-21-hosted-application.png)
 
