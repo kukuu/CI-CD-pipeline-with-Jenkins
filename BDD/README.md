@@ -2,7 +2,7 @@
 
 # Summary
 
-To facilitate the design and run modes of the automated test execution system, I would first like to clear up with the following.  whether:
+To facilitate the design and run modes of the automated test execution system, I would first like to clear up with the following.  Whether:
 
 1. The system is driven by actions of the end user such as an ecommerce website or a HR system in which case BDD acts as a good medium to capture all the user actions for the engine to process.
 
