@@ -11,18 +11,15 @@ Feature: Live event
 
 
   @wip
-  Scenario: Live event page without video
-   Given there is a live event "Conservative Party conference 2019”
-   And it has 4 Key Points
-   When I visit the live events page
-   And I view the key points
-   Then I should see title "Conservative Party conference 2019”
-   And I should see 4 key points
-  
+   Scenario: Live event stories are flagged as such on the frontpage
+    Given there is 1 live story
+    When I visit the home page
+    Then there should be one article with a search field
+
   Scenario: Live event stories are flagged as such on the frontpage
     Given there is 1 live story
     When I visit the home page
-    Then there should be one article with a live icon
+    Then there should be one article with a submit button
 
   @qa
   Scenario: Live event article *descending* order
