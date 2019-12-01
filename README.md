@@ -87,7 +87,8 @@ See fig. 2 below:
 is a piece code given to  the Dev team to test. This will go into Job2. Once certified 
 it will be pushed to be Job3 to be deployed
 
-24. The URL of our github repository has to be added to the 3 jobs as upadates in the configuration setups.
+24. The URL of our github repository has to be added to the 3 jobs as upadates in the 
+configuration setups.
 
 i. => Go to Job1
 
@@ -136,7 +137,7 @@ iv.  => 'Execute shell'. Two major statements we need to add to the executable c
 
 ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-3.png)
 
-![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/fig-4.png)
+![Happy Coding](hhttps://github.com/kukuu/AGILITY/blob/master/fig-4.png)
 
 
 29. Job2 is where we want testing to be done and copied to Docker to handle and take further to production.
