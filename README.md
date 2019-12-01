@@ -95,7 +95,8 @@ ii. => Go to configure
 
 iii. pick 'Source Code Management' tab. Then select Git.
 
-iv. Insert repository URL for the project from Git. Jenkins will pull the code from the repository here and perform the iterative 3 job operations (consecutively) from there for the CI/CD pipeline.
+iv. Insert repository URL for the project from Git. Jenkins will pull the code from the repository here
+and perform the iterative 3 job operations (consecutively) from there for the CI/CD pipeline.
 
 v. Save your update.
 
@@ -166,7 +167,8 @@ vi. 'SAVE' and 'APPLY'
 ```
 31. In Job3 we finally do a test of the system and deploy to production.
 
-Before Job3 begins first check if any old  image files have been created in the environment, and only then have them created. This is part of error handling that needs to be done in the code.
+Before Job3 begins first check if any old  image files have been created in the environment,
+and only then have them created. This is part of error handling that needs to be done in the code.
 
 Repeat step 30 with its valid changes. 'SAVE' and 'APPLY'.
 
