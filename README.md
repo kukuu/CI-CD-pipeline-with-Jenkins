@@ -272,7 +272,7 @@ See fig-12 below
 
 
 ```
-37. Lunch the application say:
+37. Lunch the application:
 
 
 localhost:3010
