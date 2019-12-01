@@ -84,7 +84,7 @@ See fig. 2 below:
 ```
 
 23. Time to create pipeline. We will pull code from Github repository. In our example here, this
-is a piece of JAVA code given to  the Dev team to test. This will go into Job2. Once certified 
+is a piece code given to  the Dev team to test. This will go into Job2. Once certified 
 it will be pushed to be Job3 to be deployed
 
 24. The URL of our github repository has to be added to the 3 jobs as upadates in the configuration setups.
