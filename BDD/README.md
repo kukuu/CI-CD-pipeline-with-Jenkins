@@ -15,6 +15,12 @@ I have chosen to create epic for building a "LIVE EVENT NEWS FEEDS" feed for sma
 
 ## Architecture
 
+Feature refinement with the team starts with a feature and will arrive at the right set of user stories through the use of design thinking, analysis, and conversations. Shown below:
+
+![Feature refinement](https://github.com/kukuu/CI-CD-pipeline-with-Jenkins/blob/master/BDD/FeatureRefinement.png)
+
+Where the a feature is  is not clear, I will facilitate the use  of impact mapping with the team  to arrive at an acceptable definition. 
+
 BDD relies on the use of a very specific vocabulary to minimize miscommunication and to ensure that everyone – the business, developers, testers, analysts and managers – are not only on the same page but using the same words.
 Secondly, Acceptance tests will be written using the standard agile framework of a User story. 
 
