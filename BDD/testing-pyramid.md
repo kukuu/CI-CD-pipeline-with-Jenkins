@@ -9,6 +9,5 @@ Integration tests are black-box tests that verify integration points between sys
 End-to-end tests are black-box tests that test execution paths through a system. They could be seen as multi-step integration tests. Web UI tests are often end-to-end-level tests.
 Below is a visual representation of the Testing Pyramid:
 
-embed testing pyramid
 
 ![Happy Coding](https://github.com/kukuu/AGILITY/blob/master/test-pyramid-coverage.jpg)
