@@ -142,8 +142,8 @@ iv.  => 'Execute shell'. Two major statements we need to add to the executable c
 
 
 ```
-29. Job2 is where we want testing to be done and copied to Docker to handle and take further to production.
-From there the application will be deployed to the production server.
+29. Job2 is where we want testing to be done and copied to Docker to handle and take further 
+to production. From there the application will be deployed to the production server.
 
 30. Go to: 
 
