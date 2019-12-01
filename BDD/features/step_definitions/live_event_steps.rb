@@ -42,5 +42,5 @@ Then /^I should see (\d+) key points$/ do |arg1|
 end
 
 Then /^there should be one article with a live icon$/ do
-  page.should have_selector('.live')
+  page.should have_selector('#example')
 end
