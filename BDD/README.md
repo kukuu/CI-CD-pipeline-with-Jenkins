@@ -9,7 +9,7 @@ To facilitate the design and run modes of the automated test execution system, I
 2. Or is it driven by a third party API calls, cron jobs, data exports/imports, etc. TDD might be a better solution.
 Is the System .
 
-Judging from the context of the exercise, I will recommend BDD as Agile methodology to drive the process. I will cover a TDD instance as an addendum and other edge cases as an extension.
+Judging from the context of the exercise, I will recommend BDD as Agile methodology to drive the process. I will cover a TDD Unit Tests instance as an addendum and other edge cases as an extension.
 
 I have chosen to create epic for building a "LIVE EVENT NEWS FEEDS" feed for smart and feature phones.
 
