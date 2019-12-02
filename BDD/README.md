@@ -2,16 +2,15 @@
 
 # Summary
 
-To facilitate the design and run modes of the automated test execution system, I would first like to clear up with the following.  Whether:
+To facilitate the 'design' and 'run' modes of the automated test execution system, I would first like to clear up with the following.  Whether:
 
 1. The system is driven by actions of the end user such as an ecommerce website or a HR system in which case BDD acts as a good medium to capture all the user actions for the engine to process.
 
 2. Or is it driven by a third party API calls, cron jobs, data exports/imports, etc. TDD might be a better solution.
-Is the System.
 
-3. Ownership and dependency graph between different objects of the components of the design and run modes. If any.
+3. Ownership and dependency graph between different objects of the components of the 'design' and 'run' modes. If any.
 
-Judging from the context of the exercise, I will recommend BDD as Agile methodology to drive the process. I will cover a TDD instance as an addendum and other edge cases as an extension.
+Judging from the context of the task ahead, I will recommend BDD as Agile methodology to drive the process execution. I will extend to cover automation of the process and other TDD best practices and   edge cases as an extension.
 
 I have chosen to create epic for building a "LIVE EVENT NEWS FEEDS" feed for smart and feature phones.
 
@@ -22,52 +21,62 @@ Feature refinement  to obtain the right set of user stories will be conducted  t
 ![Feature refinement](https://github.com/kukuu/CI-CD-pipeline-with-Jenkins/blob/master/BDD/FeatureRefinement.png)
 
 
-## The Pull Cycle 
+## The Pull Cycle - Essentials to creating User Stories
 
 
 1. Stakeholders and Business Values stories are added to backlog
 
 2. The Development team in SPRINT planning pulls the highest priorities stories to work  on that fit in a SPRINT.
 
-3. Refining epics to User Stories
+3. Refining epics to User Stories:
 
 A. Story Maps:
 
-The team will apply this technique where the solution has a greater deal of user interaction. This is a visual representation of a backlog that provides additional context regarding how the backlog items are related to each other and when the team is planning to deliver them.
+The team will apply this technique where the solution has a greater deal of user interaction (refer to points 1,2 and 3 in introductory statement furter above).  Sory Maps are representation of a backlog that provides additional context regarding how the backlog items are related to each other and when the team is planning to deliver them.
 
+The following techniques will be used by the team to facilitate creating User stories:
 
+```
 i. Write out your story one step at a time.
 
-As a group, talk through the various things that happen in the process writing each thing down on a sticky note or index card. Each of these items is a user task, which in this context is a short verb phrase that describes something people do to reach a goal.
+As a group, talk through the various things that happen in the process writing each thing
+down on a sticky note or index card. Each of these items is a user task, which in this 
+context is a short verb phrase that describes something people do to reach a goal.
 
 ii. Organize  stories. 
 
-Arrange them from left to right in the order they occur. This creates a narrative flow. If there are certain tasks that happen at the same time or in lieu of each other, they will be placed  vertically in a column.
+Arrange them from left to right in the order they occur. This creates a narrative flow. 
+If there are certain tasks that happen at the same time or in lieu of each other, they will
+be placed  vertically in a column.
 
-Subject of discussion here will also include alternative stories. These will be written down on additional sticky notes or index cards and placed in the appropriate column.
+Subject of discussion here will also include alternative stories. These will be written down 
+on additional sticky notes or index cards and placed in the appropriate column.
 
 iii. Distill the map to make a backbone. 
 
-Review all the tasks and where they combine into common groups, using easily distinguishable notes (different color or shape) as a group title, or activity. The activity will be written as a verb phrase that distills all the tasks under-neath it. These activities should also form a narrative flow and provide the outline of a high-level story.
+Review all the tasks and where they combine into common groups, using easily distinguishable
+notes (different color or shape) as a group title, or activity. The activity will be written
+as a verb phrase that distills all the tasks under-neath it. These activities should also form a 
+narrative flow and provide the outline of a high-level story.
 
 iv.Slice out tasks that help you reach a specific outcome.
+
+```
 
 This is where the team will identify a specific outcome that is to be  accomplished, and then identify the specific tasks that are absolutely essential to arriving at that outcome. Moving the tasks that don’t contribute to the particular outcome below the line for that outcome. Those outcomes will be the “happy path” through a process or a minimum viable product.
 
 
-4. Test strategy is adopted by team. Feature files are created by Dev and QA. Each will explains a feature of the system and some scenarios of different test situations. 
+4. Test strategy is adopted by team. Feature files are created by Dev and QA. Each will explains a feature of the system and some scenarios of different test situations. Acceptance criteria will also be discussed and added to each feature.
 
 3. Team demonstrates completed stories as Runnable Tested Features (RTF) to StakeHolders
 
 4. The business then pulls a collection of RTFs to release as an application or update.
-The following techniques will be used by the team to facilitate creating User stories:
+
+
 
 B. Impact mapping
 
-For identify features with outcome that the team is not sure of impact maping will be used. This will effectively combine mind mapping and strategic planning to help the team explore what behaviors  should be tried to influence in order to reach a particular objective. 
-
-![Impact mapping](https://github.com/kukuu/CI-CD-pipeline-with-Jenkins/blob/master/BDD/impact-mapping.png)
-
+For identify features with outcome that the team is not sure of, impact maping will be used. This will effectively combine mind mapping and strategic planning to help the team explore what behaviors  should be tried to influence in order to reach a particular objective. 
 
 Impact mapping offers several advantages when used in the proper context:
 
@@ -79,9 +88,12 @@ Impact mapping offers several advantages when used in the proper context:
 
 4. It verifies that the team is building the right thing.
 
+
+![Impact mapping](https://github.com/kukuu/CI-CD-pipeline-with-Jenkins/blob/master/BDD/impact-mapping.png)
+
 ## Processing the stories
 
-Using BDD specific vocabulary will help to minimize miscommunication and to ensure that everyone – the business, developers, testers, analysts and managers – are not only on the same page but using the same words.
+BDD is chosen because of its  specific vocabulary that helps to minimize miscommunication and to ensure that everyone – the business, developers, testers, analysts and managers – are not only on the same page but using the same words.
 
 Secondly, Acceptance tests will be written using the standard agile framework of a User story. 
 
@@ -96,7 +108,7 @@ At the Front End Level which also serves as the final delivery point of acceptan
 
 ```
 
-Putting this into context we can have for example: 
+Putting this into context our user stories will be guided by the following structure: 
 
 ```
 "As a [role] I want [feature] so that [benefit]". 
@@ -106,7 +118,6 @@ Putting this into context we can have for example:
 
 Acceptance criteria will be written in terms of scenarios and implemented as classes: Given [initial context], when [event occurs], then [ensure some outcomes].
 
-### Flavor
 
 Each user story will follow the following structure
 
@@ -120,7 +131,7 @@ i. This will  consist of a single or several clauses to be deduced from the scen
 
 ii. The event triggers the start of the scenario.
 
-iii. Finally, it states the expected outcome, in one or more clauses.
+iii. Finally, it states the expected outcome or assertion, in one or more clauses.
 
 
 ### Choice of Tools and Technology Stack:
@@ -130,9 +141,10 @@ These will be based on:
 1. Ones that provides good documentation and forum for sharing knowledge.
 
 2. An integrated testing tool that can perform the following:
-Functional Testing.
 
 ```
+Functional Testing.
+
 Regression Testing.
 
 Sanity Testing.
@@ -159,7 +171,7 @@ The following are identified for this task:
 
 1. Cucumber - As Test Framework for BDD
 
-This is a Ruby based tool for writing BDD tests. With Cucumber, the user describes the behaviour of the system with natural language, Gherkin with some specific keywords: 
+With Cucumber, the user describes the behaviour of the system with natural language, Gherkin with some specific keywords: 
 
 context(default given), event(action - when), outcome (then). This is expressed as: 
 
@@ -168,7 +180,7 @@ Given, When, Then, And, In order to, As a and I want to for Features
 
 ```
 
-2. Selenium - Selenium provides a playback  tool for authoring functional tests
+2. Selenium - Selenium provides a playback  tool for authoring functional tests.
 
 3. Ruby and RSPEC - RSPEC  is a DSL(Domain Specific languagew which works well with BDD) 
 
@@ -216,17 +228,13 @@ Capyberra – Library of  functions you can use in your step definitions
 
 Gem
 
-Build files for your cucumber
-
 Gem Lock, 
 
 Watir-webdriver gem, 
 
 RSpec  
 
-Gem
 ```
-
 
 ## Unit Test 
 
@@ -235,7 +243,34 @@ Gem
 
 ## Deployment steps for Docker Container 
 
- https://github.com/kukuu/CI-CD-pipeline-with-Jenkins/blob/master/docker-deployment-steps.md
+```
+1. Build Docker image.
+
+2. Test that image in isolation.
+
+3. Push that image to the in-house image registry.
+
+4. Pull all images you need to deploy linked.
+
+5. Deploy them to a test environment.
+
+6. Run automated tests against the container system.
+
+7. At same time, upload service configuration to Consul API (if changed).
+
+8. Deploy the containers to all hosts, tagged with the offline colour.
+
+9. Wait until they are all responding and passing automated checks.
+
+10. Flip environment alias to point at the offline colour.
+
+11. The new build is now online.
+
+12. Orchestration with Kubernetes
+
+```
+https://github.com/kukuu/AGILITY/blob/master/kubernetes/1.png
+
 
 
 ##  Building automated CI/CD pipeline with Jenkins to Production
@@ -258,7 +293,9 @@ https://github.com/kukuu/AGILITY/blob/master/test-pyramid-coverage.jpg
 
 
 
-E.  Useful Commands
+##  Documentation
+
+Useful Commands
 
 ```
 $ gem install cucumber
