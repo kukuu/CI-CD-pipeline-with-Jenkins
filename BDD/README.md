@@ -123,7 +123,39 @@ ii. The event triggers the start of the scenario.
 iii. Finally, it states the expected outcome, in one or more clauses.
 
 
-### Tools:
+### Choice of Tools and Technology Stack:
+
+These will be based on:
+
+1. Ones that provides good documentation and forum for sharing knowledge.
+
+2. An integrated testing tool that can perform the following:
+Functional Testing.
+
+```
+Regression Testing.
+
+Sanity Testing.
+
+Smoke Testing.
+
+Responsive Testing.
+
+Cross Browser Testing.
+
+UI testing (black box)
+
+Integration Testing.
+
+```
+
+3. Works on most known Operating Systems, and are open source.
+
+4. Can perform testing in web Browsers
+
+5. Supports multiple programming languages.
+
+The following are identified for this task:
 
 1. Cucumber - As Test Framework for BDD
 
@@ -136,6 +168,9 @@ Given, When, Then, And, In order to, As a and I want to for Features
 
 ```
 
+2. Selenium - Selenium provides a playback  tool for authoring functional tests
+
+3. Ruby and RSPEC - RSPEC  is a DSL(Domain Specific languagew which works well with BDD) 
 
 ## Dividing work amongst developers:
 
