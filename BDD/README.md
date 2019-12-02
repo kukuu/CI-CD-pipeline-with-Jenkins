@@ -60,6 +60,22 @@ This is where the team will identify a specific outcome that is to be  accomplis
 4. The business then pulls a collection of RTFs to release as an application or update.
 The following techniques will be used by the team to facilitate creating User stories:
 
+B. Impact mapping
+
+For identify features with outcome that the team is not sure of impact maping will be used. This will effectively combine mind mapping and strategic planning to help the team explore what behaviors  should be tried to influence in order to reach a particular objective. 
+
+![Impact mapping](https://github.com/kukuu/CI-CD-pipeline-with-Jenkins/blob/master/BDD/impact-mapping.png)
+
+
+Impact mapping offers several advantages when used in the proper context:
+
+1. It reduces waste. 
+
+2. It provides focus. Deliverables are selected based on how they contribute to behaviors that will enable the organization to meet its objective.
+
+3. It increases collaboration. The discussions that occur while the impact map is created can be very helpful for surfacing assumptions and establishing a sequence for the actions to take in the project.
+
+4. It verifies that the team is building the right thing.
 
 ## Processing the stories
 
