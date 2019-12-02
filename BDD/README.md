@@ -7,7 +7,9 @@ To facilitate the design and run modes of the automated test execution system, I
 1. The system is driven by actions of the end user such as an ecommerce website or a HR system in which case BDD acts as a good medium to capture all the user actions for the engine to process.
 
 2. Or is it driven by a third party API calls, cron jobs, data exports/imports, etc. TDD might be a better solution.
-Is the System .
+Is the System.
+
+3. Ownership and dependency graph between different objects of the components of the design and run modes. If any.
 
 Judging from the context of the exercise, I will recommend BDD as Agile methodology to drive the process. I will cover a TDD instance as an addendum and other edge cases as an extension.
 
