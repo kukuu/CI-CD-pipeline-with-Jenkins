@@ -16,14 +16,15 @@ I have chosen to do two implementations of the task:
 
 1. By using BDD to create epic for building a "LIVE EVENT NEWS FEEDS" feed for smart and feature phones.
 
+Test Scripts:
+https://github.com/kukuu/CI-CD-pipeline-with-Jenkins/tree/master/BDD/features
+
 2. Run automated Selenium end to end test on Redux, REACT, GraphQL application
 
 Application:
-
 https://github.com/kukuu/react-redux-graphql-express
 
 Selenium Test Script:
-
 https://github.com/kukuu/CI-CD-pipeline-with-Jenkins/blob/master/BDD/Selenium%20Project/src/alex.selenium.demo/Demo.java
 
 ## Architecture
