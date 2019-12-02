@@ -12,7 +12,19 @@ To facilitate the 'design' and 'run' modes of the automated test execution syste
 
 Judging from the context of the task ahead, I will recommend BDD as Agile methodology to drive the process execution. I will extend to cover automation of the process and other TDD best practices and   edge cases as an extension.
 
-I have chosen to create epic for building a "LIVE EVENT NEWS FEEDS" feed for smart and feature phones.
+I have chosen to do two implementations of the task:
+
+1. By using BDD to create epic for building a "LIVE EVENT NEWS FEEDS" feed for smart and feature phones.
+
+2. Run automated Selenium end to end test on Redux, REACT, GraphQL application
+
+Application:
+
+https://github.com/kukuu/react-redux-graphql-express
+
+Selenium Test Script:
+
+https://github.com/kukuu/CI-CD-pipeline-with-Jenkins/blob/master/BDD/Selenium%20Project/src/alex.selenium.demo/Demo.java
 
 ## Architecture
 
