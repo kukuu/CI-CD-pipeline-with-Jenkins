@@ -1,5 +1,3 @@
-
-
 # Summary
 
 To facilitate the 'design' and 'run' modes of the automated test execution system, I would first like to clear up with the following.  Whether:
@@ -10,7 +8,7 @@ To facilitate the 'design' and 'run' modes of the automated test execution syste
 
 3. Ownership and dependency graph between different objects of the components of the 'design' and 'run' modes. If any.
 
-Judging from the context of the task ahead, I will recommend BDD as Agile methodology to drive the process execution. I will extend to cover automation of the process and other TDD best practices and   edge cases as an extension.
+Judging from the context of the task ahead, I will recommend BDD as Agile methodology to drive the process execution. I will extend to cover automation of the process and other TDD best practices and  edge cases as an extension.
 
 I have chosen to do two implementations of the task:
 
@@ -45,14 +43,14 @@ Feature refinement  to obtain the right set of user stories will be conducted  t
 
 A. Story Maps:
 
-The team will apply this technique where the solution has a greater deal of user interaction (refer to points 1,2 and 3 in introductory statement furter above).  Sory Maps are representation of a backlog that provides additional context regarding how the backlog items are related to each other and when the team is planning to deliver them.
+The team will apply this technique where the solution has a greater deal of user interaction (refer to points 1,2 and 3 in introductory statement furter above).  Story Maps are representation of a backlog that provides additional context regarding how the backlog items are related to each other and when the team is planning to deliver them.
 
 The following techniques will be used by the team to facilitate creating User stories:
 
 ```
 i. Write out your story one step at a time.
 
-As a group, talk through the various things that happen in the process writing each thing
+The team talks through the various things that happen in the process writing each thing
 down on a sticky note or index card. Each of these items is a user task, which in this 
 context is a short verb phrase that describes something people do to reach a goal.
 
