@@ -318,6 +318,18 @@ $ bundle exec cucumber
 
 ```
 
+
+## Addendum
+
+```
+1. Explore Accelerated Massive Parallel Testing - Building a framework to sustain multiple heterogeneous projects
+
+2. Multiple Classes in project creation
+
+3. Page Object Model (POM)
+
+```
+
 ## Author
 
 Name: Alexander Adu-Sarkodie
