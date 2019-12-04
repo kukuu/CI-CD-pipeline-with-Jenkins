@@ -326,7 +326,7 @@ $ bundle exec cucumber
 
 2. Multiple Classes in project creation
 
-3. Page Object Model (POM)
+3. Page Object Model (POM).
 
 ```
 
