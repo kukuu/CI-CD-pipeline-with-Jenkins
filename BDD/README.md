@@ -322,7 +322,8 @@ $ bundle exec cucumber
 ## Addendum
 
 ```
-1. Explore Accelerated Massive Parallel Testing - Building a framework to sustain multiple heterogeneous projects
+1. Explore Accelerated Massive Parallel Testing (AMPT) - Building a framework to sustain 
+multiple heterogeneous projects
 
 2. Multiple Classes in project creation
 
