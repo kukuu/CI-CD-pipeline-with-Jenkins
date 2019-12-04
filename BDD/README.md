@@ -194,7 +194,7 @@ Given, When, Then, And, In order to, As a and I want to for Features
 ![Impact mapping](https://github.com/kukuu/CI-CD-pipeline-with-Jenkins/blob/master/BDD/selenium.png)
 
 
-3. Ruby and RSPEC - RSPEC  is a DSL(Domain Specific languagew which works well with BDD) 
+3. Ruby and RSPEC - RSPEC  is a DSL(Domain Specific language which works well with BDD) 
 
 ## Dividing work amongst developers:
 
