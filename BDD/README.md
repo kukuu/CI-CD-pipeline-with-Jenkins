@@ -301,6 +301,8 @@ https://github.com/kukuu/CI-CD-pipeline-with-Jenkins/blob/master/README.md
 
 ##  Test Pyramid
 
+https://github.com/kukuu/CI-CD-pipeline-with-Jenkins/blob/master/BDD/testing-pyramid.md
+
 https://github.com/kukuu/AGILITY/blob/master/test-pyramid-coverage.jpg
 
 
@@ -347,4 +349,6 @@ Testenium https://testenium.co.uk/testenium/index.php | https://testenium.co.uk/
    
    3. https://www.youtube.com/watch?v=LJNEUYICSbQ 
 
+## References
 
+Best Practices  - https://dannorth.net/introducing-bdd/
