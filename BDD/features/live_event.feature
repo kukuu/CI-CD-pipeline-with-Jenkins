@@ -13,12 +13,12 @@ Feature: Live event
   @wip
    Scenario: Live event stories are flagged as such on the frontpage
     Given there is 1 live story
-    When I visit the home page
+    When I visit the homepage
     Then there should be one article with a search field
 
   Scenario: Live event stories are flagged as such on the frontpage
     Given there is 1 live story
-    When I visit the home page
+    When I visit the homepage
     Then there should be one article with a submit button
 
   @qa
