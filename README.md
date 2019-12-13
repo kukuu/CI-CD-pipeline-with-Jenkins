@@ -17,7 +17,7 @@ Stages & Monitoring
 
 ## Architecture
 
-[Jenkins architecture](https://github.com/kukuu/AGILITY/blob/master/jenkins-architecture.png)
+![Jenkins architecture](https://github.com/kukuu/AGILITY/blob/master/jenkins-architecture.png)
 
 ```
 1. Commit
