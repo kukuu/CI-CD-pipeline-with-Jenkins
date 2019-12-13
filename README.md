@@ -1,5 +1,36 @@
 
-# Jenkins - Building CI/CD pipeline
+# Jenkins 
+
+Jenkins is an open source automation tool written in Java with plugins built for Continuous Integration purpose. It  offers a simple way to set up a continuous integration and continuous delivery environment for almost any combination of languages.
+
+## DevOps
+
+It is a software development approach which involves Continuous Development, Continuous Testing, Continuous Integration, Continuous Deployment, and Continuous Monitoring through out its development cycle.
+
+![DevOps](https://github.com/kukuu/AGILITY/blob/master/devops.png)
+
+Stages & Monitoring
+![DevOps Stages and Monitoring](https://github.com/kukuu/AGILITY/blob/master/devops-stages-monitoring.png)                              
+
+
+
+
+## Architecture
+
+[Jenkins architecture](https://github.com/kukuu/AGILITY/blob/master/jenkins-architecture.png)
+
+```
+1. Commit
+
+2. Build
+
+3. Test
+
+4. Deploy
+
+```
+
+## Building CI/CD pipeline
 
 Steps
 
@@ -157,7 +188,23 @@ iii. => Execute shell
 
 iv. Add code. See insert below
 
-v. We also build the Docker Container
+v. We also build the Docker Container:
+
+Dockerizing
+
+```
+1. Docker file builds a Docker image, and that image contains all the projects code. 
+   Including configuratio, monitoring and health check essentials.
+
+2. The image can be run to create many Docker Containers.
+
+3. The image can be deployed on to a Docker hub 
+
+4. From the Docker Hub anyone can pull the image and build a Container.
+
+![Dockerizing](https://github.com/kukuu/AGILITY/blob/master/dockerizing.png)
+
+```
 
 vi. 'SAVE' and 'APPLY'
 
