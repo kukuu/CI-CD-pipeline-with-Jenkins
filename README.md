@@ -194,11 +194,11 @@ Dockerizing
 
 ```
 1. Docker file builds a Docker image, and that image contains all the projects code. 
-   Including configuratio, monitoring and health check essentials.
+   Including configuratioN, monitoring and health check essentials.
 
-2. The image can be run to create many Docker Containers.
+2. The image can be deployed on to a Docker hub 
 
-3. The image can be deployed on to a Docker hub 
+3. The image can be run to create many Docker Containers.
 
 4. From the Docker Hub anyone can pull the image and build a Container.
 
