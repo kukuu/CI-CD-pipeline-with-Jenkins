@@ -41,7 +41,7 @@ Steps
 
 3. [alex@localhost - ] $ systemctl start jenkins
 
-4.  Authentication dialogue box appears. Use your credentials.
+4. Authentication dialogue box appears. Use your credentials.
 
 5. Now you will be directed to the CLI
 
@@ -60,11 +60,11 @@ Steps
 
 11. Enable Docker
 
-12. [alex@localhost - ] $  systemctl start docker
+12. [XXXXX@localhost - ] $  systemctl start docker
 
 13. Authenticate with credentials
 
-14. Docker starts = >  [alex@localhost - ] 
+14. Docker starts = >  [XXXXX@localhost - ] 
 
 15. Open Jenkins Dashboard from Applications => Firefox!
 
